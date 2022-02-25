@@ -1,4 +1,6 @@
+import '../styles/Componentes/Pages/HabitacionesPage.css'
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HabitacionesPage = (props) => {
     return (
@@ -18,25 +20,25 @@ const HabitacionesPage = (props) => {
             </div>
 
             <div className="carrusel">
-                <img src="images/habitaciones/habitaciones.jpg" alt=""/>
+                <img src="images/habitaciones/habitaciones.jpg" alt="" />
 
             </div>
 
             <div className="holder">
 
                 <div className="habitacion">
-                    <img src="images/habitaciones/habitacion1.jpg" alt=""/>
-                        <div className="caracteristicas">
-                            <h4>HABITACION E LOUNGE</h4>
-                            <ul>
-                                <li>Una cama King o dos camas individuales, Una cama extra o una cuna</li>
-                                <li>40 m² (430 ft²)</li>
-                                <li>Tres adultos o dos adultos</li>
-                            </ul>
+                    <img src="images/habitaciones/habitacion1.jpg" alt="" />
+                    <div className="caracteristicas">
+                        <h4>HABITACION E LOUNGE</h4>
+                        <ul>
+                            <li>Una cama King o dos camas individuales, Una cama extra o una cuna</li>
+                            <li>40 m² (430 ft²)</li>
+                            <li>Tres adultos o dos adultos</li>
+                        </ul>
 
-                            <a className="boton" href="reservas.html">RESERVAR</a>
+                        <Link className='boton' to='/reservas'>RESERVAR</Link>
 
-                        </div>
+                    </div>
 
                 </div>
 
@@ -50,27 +52,27 @@ const HabitacionesPage = (props) => {
                             <li>Tres adultos, o dos adultos y un niño</li>
                         </ul>
 
-                        <a className="boton" href="reservas.html">RESERVAR</a>
+                        <Link className='boton' to='/reservas'>RESERVAR</Link>
 
                     </div>
 
-                    <img src="images/habitaciones/habitacion2.jpg" alt=""/>
+                    <img src="images/habitaciones/habitacion2.jpg" alt="" />
 
                 </div>
 
                 <div className="habitacion">
-                    <img src="images/habitaciones/habitacion3.jpg" alt=""/>
-                        <div className="caracteristicas">
-                            <h4>SUITE PRESIDENCIAL</h4>
-                            <ul>
-                                <li>Una cama King o dos camas individuales, Una cama extra o una cuna</li>
-                                <li>40 m² (430 ft²)</li>
-                                <li>Tres adultos, o dos adultos y un niño</li>
-                            </ul>
+                    <img src="images/habitaciones/habitacion3.jpg" alt="" />
+                    <div className="caracteristicas">
+                        <h4>SUITE PRESIDENCIAL</h4>
+                        <ul>
+                            <li>Una cama King o dos camas individuales, Una cama extra o una cuna</li>
+                            <li>40 m² (430 ft²)</li>
+                            <li>Tres adultos, o dos adultos y un niño</li>
+                        </ul>
 
-                            <a className="boton" href="reservas.html">RESERVAR</a>
+                        <Link className='boton' to='/reservas'>RESERVAR</Link>
 
-                        </div>
+                    </div>
 
 
                 </div>

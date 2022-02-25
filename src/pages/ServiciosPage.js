@@ -1,3 +1,4 @@
+import '../styles/Componentes/Pages/ServiciosPage.css'
 import React from 'react';
 
 const ServiciosPage = (props) => {

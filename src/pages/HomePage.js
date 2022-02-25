@@ -1,7 +1,9 @@
+import '../styles/Componentes/Pages/HomePage.css';
 import React from 'react';
 
 const HomePage = (props) => {
     return (
+        
         <main>
 
         <div className="carrusel">

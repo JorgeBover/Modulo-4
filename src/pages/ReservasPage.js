@@ -1,3 +1,4 @@
+import '../styles/Componentes/Pages/ReservasPage.css'
 import React from 'react';
 
 const ReservasPage = (props) => {
